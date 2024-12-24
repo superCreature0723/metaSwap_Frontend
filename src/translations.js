@@ -1,0 +1,177 @@
+const translations = {
+    en: {
+        balance: "Balance",
+        deposit: "Deposit",
+        send: "Send",
+        swap: "Swap",
+        offchain: "Offchain",
+        autoconvert: "Autoconvert",
+        history: "History",
+        assets: "Assets",
+        noData: "No data available",
+        currencySelection: "Currency selection",
+        tokenNotFound: "Token not found",
+        topUp: "Top-up",
+        currency: "Currency",
+        network: "Network",
+        topUpAddress: "Top-up address",
+        done: "Done",
+        offchainTransfer: "Offchain transfer",
+        amount: "Amount",
+        recipientAddress: "Recipient address",
+        selectFromAddressBook: "Select from address book",
+        operationCompleted: "Operation completed",
+        atAddress: "at address",
+        saveToSavedDetails: "Save to saved details",
+        details: "Details",
+        sent: "Sent",
+        settings: "Settings",
+        toBot: "To bot",
+        support: "Support",
+        close: "Close",
+        giving: "Giving",
+        token: "Token",
+        next: "Next",
+        receiving: "Receiving",
+        fee: "Fee",
+        select: "Select",
+        get: "Get",
+        searchToken: "Search Token",
+        yourOffchainReceivingAddress: "Your address for receiving Offchain",
+        createNewAddress: "Create new address",
+        email: "E-mail", // Добавлен перевод для "E-mail"
+        enterYourEmail: "Enter your email", // Добавлен перевод для "Введите ваш email"
+        unlinkGoogleAuthenticator: "Unlink Google Authenticator", // Добавлен перевод для "Отвязать Google Authenticator"
+        linkGoogleAuthenticator: "Link Google Authenticator", // Добавлен перевод для "Привязать Google Authenticator"
+        verificationAndLimits: "Verification and limits", // Добавлен перевод для "Верификация и лимиты"
+        yourStatus: "Your status", // Добавлен перевод для "Ваш статус"
+        verify: "Verify",  // Добавлен перевод для "Пройти верификацию"
+        notSpecified: "Not specified",
+        notVerified: "Not verified",
+        pending: "Pending",
+        verified: "Verified",
+        scanQrOrEnterCode: "Scan QR or enter code",
+        googleAuthCode: "Google Authentification Code",
+
+        newEmail: "New E-mail",
+        sendCode: "Send code",
+        enterCode: "Enter code",
+        changeEmail: "Change e-mail",
+        enterNewEmail: "Enter new e-mail",
+        emailAdded: "E-mail added",
+        emailReplacedFrom: "E-mail replaced from",
+
+        sorting: "Sorting",
+        all: "All",
+        selected: "Selected",
+
+        output: "Output",
+        received: "Received",
+        unpaid: "Unpaid",
+        awaitingConfirmations: "Awaiting confirmations",
+        paid: "Paid",
+        underReview: "Under review",
+        pendingVerification: "Pending verification",
+        blocked: "Blocked",
+        expired: "Expired",
+
+        inProgress: "In progress",
+        completed: "Completed",
+        error: "Error",
+        canceled: "Canceled",
+
+        translations: "Translations",
+        incoming: "Incoming",
+        outgoing: "Outgoing",
+        language: "Language"
+
+    },
+    ru: {
+        balance: "Баланс",
+        deposit: "Депозит",
+        send: "Отправить",
+        swap: "Обмен",
+        offchain: "Вне блокчейна",
+        autoconvert: "Автоконвертация",
+        history: "История",
+        assets: "Активы",
+        noData: "Данные отсутствуют",
+        currencySelection: "Выбор валюты",
+        tokenNotFound: "Токен не найден",
+        topUp: "Пополнение",
+        currency: "Валюта",
+        network: "Сеть",
+        topUpAddress: "Адрес пополнения",
+        done: "Готово",
+        offchainTransfer: "Перевод вне блокчейна",
+        amount: "Сумма",
+        recipientAddress: "Адрес получателя",
+        selectFromAddressBook: "Выбрать из адресной книги",
+        operationCompleted: "Операция выполнена",
+        atAddress: "по адресу",
+        saveToSavedDetails: "Записать в сохраненные реквизиты",
+        details: "Подробности",
+        sent: "Отправлено",
+        settings: "Настройки",
+        toBot: "В бот",
+        support: "Поддержка",
+        close: "Закрыть",
+        giving: "Отдаем",
+        token: "Токен",
+        next: "Далее",
+        receiving: "Получаем",
+        fee: "Комиссия",
+        select: "Выберите",
+        get: "Получить",
+        searchToken: "Поиск токена",
+        yourOffchainReceivingAddress: "Ваш адрес для получения Offchain",
+        createNewAddress: "Создать новый адрес",
+        email: "E-mail", // Добавлен перевод для "E-mail"
+        enterYourEmail: "Введите ваш email", // Добавлен перевод для "Введите ваш email"
+        unlinkGoogleAuthenticator: "Отвязать Google Authenticator", // Добавлен перевод для "Отвязать Google Authenticator"
+        linkGoogleAuthenticator: "Привязать Google Authenticator", // Добавлен перевод для "Привязать Google Authenticator"
+        verificationAndLimits: "Верификация и лимиты", // Добавлен перевод для "Верификация и лимиты"
+        yourStatus: "Ваш статус", // Добавлен перевод для "Ваш статус"
+        verify: "Пройти верификацию",  // Добавлен перевод для "Пройти верификацию"
+        notSpecified: "Не указан",
+        notVerified: "Не верифицирован",
+        pending: "В ожидании",
+        verified: "Верифицирован",
+        scanQrOrEnterCode: "Отсканируйте QR или введите код",
+        googleAuthCode: "Код Google Аутентификации",
+        newEmail: "Новый E-mail",
+        sendCode: "Отправить код",
+        enterCode: "Введите код",
+        changeEmail: "Сменить e-mail",
+        enterNewEmail: "Введите новую почту",
+        emailAdded: "Добавленна почта",
+        emailReplacedFrom: "Почта заменена с",
+
+        sorting: "Сортировка",
+        all: "Все",
+        selected: "Выбрано",
+
+        output: "Вывод",
+        received: "Полученно",
+        unpaid: "Не оплачен",
+        awaitingConfirmations: "Ожидание подтверждений",
+        paid: "Оплачено",
+        underReview: "На рассмотрение",
+        pendingVerification: "На проверке",
+        blocked: "Заблокированно",
+        expired: "Истек",
+
+        inProgress: "В обработке",
+        completed: "Завершен",
+        error: "Ошибка",
+        canceled: "Отменен",
+
+        translations: "Переводы",
+        incoming: "Входящие",
+        outgoing: "Исходящие",
+        language: "Язык"
+
+    }
+};
+
+export default { translations };
