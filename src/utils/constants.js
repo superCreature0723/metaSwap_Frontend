@@ -27,4 +27,4 @@ export const LANGUAGES = [
     { value: 'tr', label: 'Turkey', icon: <TurqIcon/>},
 ];
 
-export const BACKEND_URL = process.env.REACT_APP_API_URL;
+export const BACKEND_URL = process.env."http://localhost:4000/api/v1";
